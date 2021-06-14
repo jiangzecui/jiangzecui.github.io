@@ -6,17 +6,17 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://example.com">
-  <title>我的第一篇博客文章 | 泽翠</title>
+  <title>【杂记】视频字幕 | 泽翠</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="我的第一个博客建立博客过程 1.下载Git和node.js  看的一个教程     https:&#x2F;&#x2F;ihcll.cn&#x2F;a002&#x2F; 另一个教程 Codesheep">
+  <meta name="description" content="1.常见的字幕格式 .srt .ass .ssa">
 <meta property="og:type" content="article">
-<meta property="og:title" content="我的第一篇博客文章">
-<meta property="og:url" content="http://example.com/2021/06/03/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/index.html">
+<meta property="og:title" content="【杂记】视频字幕">
+<meta property="og:url" content="http://example.com/2021/06/14/4.%E3%80%90%E6%9D%82%E8%AE%B0%E3%80%91%E8%A7%86%E9%A2%91%E5%AD%97%E5%B9%95/index.html">
 <meta property="og:site_name" content="泽翠">
-<meta property="og:description" content="我的第一个博客建立博客过程 1.下载Git和node.js  看的一个教程     https:&#x2F;&#x2F;ihcll.cn&#x2F;a002&#x2F; 另一个教程 Codesheep">
+<meta property="og:description" content="1.常见的字幕格式 .srt .ass .ssa">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2021-06-03T12:12:24.000Z">
-<meta property="article:modified_time" content="2021-06-03T13:11:06.283Z">
+<meta property="article:published_time" content="2021-06-14T11:35:36.829Z">
+<meta property="article:modified_time" content="2021-06-14T13:03:47.028Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
   
@@ -154,31 +154,54 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-我的第一篇博客文章" class="article article-type-post " itemscope itemprop="blogPost">
+            <article id="post-4.【杂记】视频字幕" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 class="article-title" itemprop="name">
-      我的第一篇博客文章
+      【杂记】视频字幕
     </h1>
   
 
         
-        <a href="/2021/06/03/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/" class="archive-article-date">
-  	<time datetime="2021-06-03T12:12:24.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-06-03</time>
+        <a href="/2021/06/14/4.%E3%80%90%E6%9D%82%E8%AE%B0%E3%80%91%E8%A7%86%E9%A2%91%E5%AD%97%E5%B9%95/" class="archive-article-date">
+  	<time datetime="2021-06-14T11:35:36.829Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-06-14</time>
 </a>
         
       </header>
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h2 id="我的第一个博客"><a href="#我的第一个博客" class="headerlink" title="我的第一个博客"></a>我的第一个博客</h2><h3 id="建立博客过程"><a href="#建立博客过程" class="headerlink" title="建立博客过程"></a>建立博客过程</h3><blockquote>
-<p>1.下载Git和node.js</p>
+        <h1 id="1-常见的字幕格式"><a href="#1-常见的字幕格式" class="headerlink" title="1.常见的字幕格式"></a><font size=5>1.常见的字幕格式</font></h1><blockquote>
+<p>.srt</p>
+<p>.ass</p>
+<p>.ssa<span id="more"></span></p>
 </blockquote>
-<p>看的一个教程     <a target="_blank" rel="noopener" href="https://ihcll.cn/a002/">https://ihcll.cn/a002/</a></p>
-<p>另一个教程 Codesheep</p>
+<h1 id="2-SRT字幕格式"><a href="#2-SRT字幕格式" class="headerlink" title="2.SRT字幕格式"></a><font size=5>2.SRT字幕格式</font></h1><blockquote>
+<p>字幕序号</p>
+<p>字幕显示的起始时间、结束时间</p>
+<p>字幕内容（可多行）</p>
+<p>空白行（表示本字幕段的结束）</p>
+</blockquote>
+<ul>
+<li>字幕序号：一般是顺序增加的，表示字幕是一系列连续的序列</li>
+<li>起始时间、结束时间<ul>
+<li>hour:minute:second.millisecond –&gt; hour:minute:second.millisecond</li>
+<li>hour:minute:second,millisecond –&gt; hour:minute:second,millisecond</li>
+</ul>
+</li>
+<li>后面还可以附加用于指定字幕显示位置的信息，以像素为单位，格式如下：X1:number Y1:number X2:number Y2:number</li>
+</ul>
+<h1 id="3-SRT格式化设置"><a href="#3-SRT格式化设置" class="headerlink" title="3.SRT格式化设置"></a><font size=5>3.SRT格式化设置</font></h1><p>多数SRT支持一些特定格式化，比如斜体、粗体、下划线以及字体颜色。使用时需要基于HTML的标签，具体用法如下：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&lt;font color=red&gt;颜色&lt;/font&gt;</span><br><span class="line">&lt;i&gt;字体斜体&lt;/i&gt;</span><br><span class="line">&lt;u&gt;字体下加划线&lt;/u&gt;</span><br><span class="line">&lt;br&gt;换行</span><br><span class="line">&lt;b&gt;字体加粗&lt;/b&gt;</span><br></pre></td></tr></table></figure>
+
+
+<h1 id="4-SRT格式化编辑"><a href="#4-SRT格式化编辑" class="headerlink" title="4.SRT格式化编辑"></a><font size=5>4.SRT格式化编辑</font></h1><p>srt文件一般都可以通过文本编辑器打开，例如记事本、notepad++等，但是操作起来不是很方便。</p>
+<h1 id="5-例"><a href="#5-例" class="headerlink" title="5.例"></a><font size=5>5.例</font></h1><p>1<br>00:00:05.600 –&gt; 00:00:08.400<br>这是根据原理图绘制的PCB</p>
+<p>2<br>00:00:08.600 –&gt; 00:00:09.600<br>这是PCB的3D渲染图</p>
+<p>3<br>00:00:09.800 –&gt; 00:00:12.200<br>这是组装制作好的电路板</p>
 
       
 
@@ -258,7 +281,7 @@
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="//pan.baidu.com/share/qrcode?url=http://example.com/2021/06/03/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/" alt="微信分享二维码">
+      <img src="//pan.baidu.com/share/qrcode?url=http://example.com/2021/06/14/4.%E3%80%90%E6%9D%82%E8%AE%B0%E3%80%91%E8%A7%86%E9%A2%91%E5%AD%97%E5%B9%95/" alt="微信分享二维码">
     </div>
 </div>
 
@@ -272,18 +295,9 @@
   
 <nav id="article-nav">
   
-    <a href="/2021/06/03/%E8%AE%BA%E6%96%87%E5%86%99%E4%BD%9C/" id="article-nav-newer" class="article-nav-link-wrap">
-      <i class="icon-circle-left"></i>
-      <div class="article-nav-title">
-        
-          (no title)
-        
-      </div>
-    </a>
   
-  
-    <a href="/2021/06/03/1.hello-world/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">Hello World</div>
+    <a href="/2021/06/13/3.%E3%80%90Markdown%E3%80%91Markdown%E5%AD%97%E4%BD%93/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">【Markdown】Markdown字体</div>
       <i class="icon-circle-right"></i>
     </a>
   
